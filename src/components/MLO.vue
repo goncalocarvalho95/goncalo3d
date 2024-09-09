@@ -17,14 +17,14 @@
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">8. Import</summary>
+          <summary class="text-2xl">9. Import</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Open the folder of the project and import all the files</li>
           </ul>
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">9. Create YMAP</summary>
+          <summary class="text-2xl">10. Create YMAP</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select the paper icon and rename the map1.ymap</li>
             <li class="pl-4">Select YMAP -> New Entity and add the collision file name</li>
@@ -33,7 +33,7 @@
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">10. Generate Manifest</summary>
+          <summary class="text-2xl">11. Generate Manifest</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select Tools -> Generate Manifest -> Generate -> Save and choose the file name</li>
           </ul>
@@ -109,10 +109,19 @@
           </ul>
         </details>
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">6. Create Archetype Definition</summary>
+          <summary class="text-2xl">6. Interior</summary>
+          <ul class="list-disc list-inside space-y-4">
+            <li class="pl-4">Create a Plane</li>
+            <li class="pl-4">Edit the Plane</li>
+            <li class="pl-4">Duplicate 2x the Plane</li>
+            <li class="pl-4">Convert to drawable and Composite</li>
+          </ul>
+        </details>
+        <details class="space-y-4 px-6">
+          <summary class="text-2xl">7. Create Archetype Definition</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select Archetype Definition</li>
-            <li class="pl-4">Press + symbol and choose the name (can be the nmae of the project e.g. yourName_projectName)</li>
+            <li class="pl-4">Press the (+) symbol and choose the name of your archetype (It could be the name of the project e.g. yourName_projectName)</li>
             <li class="pl-4">Select the shell drawable and click Auto-Create from selection as base</li>
             <li class="pl-4">Select the collision composite and click Auto-Create from selection as MLO</li>
             <li class="pl-4">Click Create Limbo Room, Click + and rename to room1</li>
@@ -131,14 +140,14 @@
           </ul>
         </details>
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">7. Export</summary>
+          <summary class="text-2xl">8. Export</summary>
           <ul class="list-disc list-inside space-y-4">
-            <li class="pl-4">Press <kbd>V</kbd> -> Export (delect Selected Objects) to export everything</li>
+            <li class="pl-4">Press <kbd>V</kbd> -> Export (delete Selected Objects) to export everything</li>
           </ul>
         </details>
       </details>
       <details class="space-y-4">
-        <summary class="text-2xl">11. Stream folder</summary>
+        <summary class="text-2xl">12. Stream folder</summary>
         <ul class="list-disc list-inside space-y-4">
           <li class="pl-4">
             Create the stream folder inside the resources folder
