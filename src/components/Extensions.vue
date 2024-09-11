@@ -3,7 +3,7 @@
         <h2 class="underline text-2xl mb-4">FILE EXTENSIONS</h2>
         <p>
             YMAP - location on the map and gets the information from the ytyp<br />
-            YTYP - Y-Type, this file contains the metadata (linked objects, portals etc) of the type of file we are creating .e.g an MLO<br />
+            YTYP - Y-Type, this file contains the metadata (linked objects, portals etc) of the type of file we are creating e.g. an MLO<br />
             YDR - model/mesh visual file<br />
             YBN - Collision file<br />
             OCCLUSION - blocks the render<br />

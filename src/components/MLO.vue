@@ -8,7 +8,7 @@
           <summary class="text-2xl">1. Export</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">
-              Press <kbd>space</kbd> + <kbd>T</kbd> and
+              Press <kbd>space</kbd> + <kbd>T</kbd> and select
               <img src="../assets/img/codewalker_bar.png" alt="codewalker-bar" class="inline-img" />
             </li>
             <li class="pl-4">Export: Building's YDR, TEXTURES, YBN (HI and normal), YMAP and OCCLUSION</li>
@@ -43,28 +43,27 @@
         <summary class="text-2xl">BLENDER</summary>
         <details class="space-y-4 px-6">
           <summary class="text-2xl">2. Import</summary>
-          <div class="flex flex-row float-right">
-            <div class="flex-col-3">
-              <ul class="list-disc list-inside space-y-4 w-3/4">
-                <li class="pl-4">Create Exterior, Interior and Reference Collections</li>
-                <li class="pl-4">Select exterior collection</li>
-                <li class="pl-4">Press <kbd>V</kbd> -> Import - YDR YBN OCCLUSION <span class="text-red-600">(NOT YMAPS YET!)</span></li>
-                <li class="pl-4">Press <kbd>V</kbd> -> Find Missing Textures</li>
-                <li class="pl-4">Import YMAPS and make sure you have INSTANCED ENTITIES DISABLED on the right side</li>
-                <li class="pl-4">Delete both Building and Terrain YMAP if you don't need to edit the car spawn</li>
-              </ul>
-            </div>
-            <div class="flex flex-row">
-              <!-- <img src="../assets/img/collections.png" alt="collections" class="float-right" /> -->
-              <img src="../assets//img/blender_import.png" alt="blender-import" class="float-right" />
-              <img src="../assets//img/import_ymap.png" alt="blender-import-ymap" class="float-right w-1/4" />
+          <div class="flex flex-row">
+            <ul class="list-disc list-inside space-y-4 flex-1 md:w-1/2">
+              <li class="pl-4">Create Exterior, Interior and Reference Collections</li>
+              <li class="pl-4">Select exterior collection</li>
+              <li class="pl-4">Press <kbd>V</kbd> -> Import - YDR YBN OCCLUSION <span class="text-red-600">(NOT YMAPS YET!)</span></li>
+              <li class="pl-4">Press <kbd>V</kbd> -> Find Missing Textures</li>
+              <li class="pl-4">Import YMAPS and make sure you have INSTANCED ENTITIES DISABLED on the right side</li>
+              <li class="pl-4">Delete both Building and Terrain YMAP if you don't need to edit the car spawn</li>
+            </ul>
+            <div class="overflow-x-scroll flex-1 md:w-1/2">
+              <div class="flex flex-row min-w-max">
+                <img src="../assets//img/blender_import.png" alt="blender-import" class="w-3/4 h-auto object-contain" />
+                <img src="../assets//img/import_ymap.png" alt="blender-import-ymap" class="w-64 h-auto object-contain" />
+              </div>
             </div>
           </div>
         </details>
         <details class="space-y-4 px-6">
           <summary class="text-2xl">3. Edit Exterior</summary>
           <div class="flex flex-row">
-            <ul class="list-disc list-inside space-y-4">
+            <ul class="list-disc list-inside space-y-4 flex-1 md:w-4/5">
               <li class="pl-4">Press <kbd>tab</kbd> to change to edit mode and press <kbd>3</kbd> to select face mode</li>
               <li class="pl-4">Press <kbd>A</kbd> to highlight all faces and press <kbd>Alt + J</kbd> to transform tris to quads</li>
               <li class="pl-4">Select the doors and the windows, Press <kbd>L</kbd> to select all linked faces</li>
@@ -87,12 +86,13 @@
               <li class="pl-4">Move the cursor to the vertex and press <kbd>lmb</kbd> (you can scroll to create more loop cuts)</li>
               <li class="pl-4">Press <kbd>X</kbd> -> faces to remove the faces you don't need</li>
             </ul>
-            <div class="grid grid-cols-2 gap-4">
-              <img src="../assets/img/blender_tris_quads.png" alt="blender-tris-quads" class="float-right w-80" />
-              <!-- <img src="../assets/img/obj_symbol.png" alt="blender-obj-symbol" class="float-right w-10" /> -->
-              <img src="../assets/img/obj_menu.png" alt="blender-obj-menu" class="float-right w-80" />
-              <img src="../assets/img/blender_global.png" alt="blender-global" class="float-right w-80" />
-              <img src="../assets/img/snap_edge_align.png" alt="blender-snap-edge-align" class="float-right w-80" />
+            <div class="overflow-x-scroll flex-1 md:w-1/5">
+              <div class="flex flex-row min-w-max">
+                <img src="../assets/img/blender_tris_quads.png" alt="blender-tris-quads" class="w-80 h-auto object-contain" />
+                <img src="../assets/img/obj_menu.png" alt="blender-obj-menu" class="w-80 h-auto object-contain" />
+                <img src="../assets/img/blender_global.png" alt="blender-global" class="w-80 h-auto object-contain" />
+                <img src="../assets/img/snap_edge_align.png" alt="blender-snap-edge-align" class="w-80 h-auto object-contain" />
+              </div>
             </div>
           </div>
         </details>
@@ -115,6 +115,8 @@
             <li class="pl-4">Edit the Plane</li>
             <li class="pl-4">Duplicate 2x the Plane</li>
             <li class="pl-4">Convert to drawable and Composite</li>
+            <li class="pl-4">Rename UVMap to "UVMap 0"</li>
+            <li class="pl-4">Create a color atribute called: "Color 1"</li>
           </ul>
         </details>
         <details class="space-y-4 px-6">
@@ -151,9 +153,9 @@
         <ul class="list-disc list-inside space-y-4">
           <li class="pl-4">
             Create the stream folder inside the resources folder
-            <p class="pl-8">
+            <p class="pl-8 pt-4">
               Drag all files from RPF Explorer to the stream folder<br />
-              resources/«map_name»/stream/«ydr;ybn;ymap;ytyp;ymf;ydd;yft»<br />
+              resources/«map_name»/stream/«YDR; YBN; YMAP; YTYP; YMF; YDD; YFT»<br />
               resources/«map_name»/manifest.lua
             </p>
             <p class="pl-8 pt-4">manifest.lua<br><code>fx_version 'cerulean'<br />game 'gta5'<br />this_is_a_map 'yes'</code></p>

@@ -1,10 +1,10 @@
 <script setup lang="ts">
-  import Banner from './components/Banner.vue';
-  import Extensions from './components/Extensions.vue';
-  import Flags from './components/Flags.vue';
-  import Links from './components/Links.vue';
-  import MLO from './components/MLO.vue';
-  import Shortcuts from './components/Shortcuts.vue';
+import Banner from './components/Banner.vue';
+import Extensions from './components/Extensions.vue';
+import Flags from './components/Flags.vue';
+import Links from './components/Links.vue';
+import MLO from './components/MLO.vue';
+import Shortcuts from './components/Shortcuts.vue';
 </script>
 
 <template>
@@ -18,6 +18,4 @@
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped lang="scss"></style>

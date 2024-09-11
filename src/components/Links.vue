@@ -1,7 +1,7 @@
 <template>
     <div id="links" class="grid grid-flow-row md:grid-flow-col gap-x-80 rounded-lg bg-neutral-100 dark:bg-neutral-900 shadow-lg p-8">
-      <div>
-        <h2 class="text-2xl mb-4">Textures:</h2>
+      <div class="mb-4 md:mb-0">
+        <h2 class="text-2xl mb-4">Textures</h2>
         <ul class="list-none list-inside space-y-2">
           <li class="pl-4"><a class="underline" href="https://polyhaven.com/textures">Poly Haven</a></li>
           <li class="pl-4"><a class="underline" href="https://ambientcg.com">AmbientCG</a></li>
@@ -9,8 +9,8 @@
           <li class="pl-4"><a class="underline" href="https://altv.stuyk.com/docs/mapping/textures.html">Texture Information</a></li>
         </ul>
       </div>
-      <div>
-        <h2 class="text-2xl mb-4">Discord Servers:</h2>
+      <div class="mb-4 md:mb-0">
+        <h2 class="text-2xl mb-4">Discord Servers</h2>
         <ul class="list-none list-inside space-y-2">
           <li class="pl-4"><a class="underline" href="https://discord.gg/codewalker">CodeWalker</a></li>
           <li class="pl-4"><a class="underline" href="https://discord.gg/U6damJ24">Sollumz</a></li>
@@ -18,7 +18,7 @@
         </ul>
       </div>
       <div>
-        <h2 class="text-2xl mb-4">Useful Links:</h2>
+        <h2 class="text-2xl mb-4">Useful Links</h2>
         <ul class="list-none list-inside space-y-2">
           <li class="pl-4"><a class="underline" href="https://download.blender.org/release/Blender4.1/">Blender 4.1.1</a></li>
           <li class="pl-4"><a class="underline" href="https://github.com/Sollumz/Sollumz/releases">Sollumz Releases</a></li>

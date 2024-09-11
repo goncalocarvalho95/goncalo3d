@@ -10,13 +10,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 a {
   text-decoration: inherit !important;
+}
+
+kbd {
+  color: black;
+  background-color: #e0e0e0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
 
 summary {
   cursor: pointer;
 }
+
 .inline-img {
   display: inline-block;
   vertical-align: middle;
