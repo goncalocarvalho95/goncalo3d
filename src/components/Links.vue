@@ -15,6 +15,7 @@
           <li class="pl-4"><a class="underline" href="https://discord.gg/codewalker">CodeWalker</a></li>
           <li class="pl-4"><a class="underline" href="https://discord.gg/U6damJ24">Sollumz</a></li>
           <li class="pl-4"><a class="underline" href="https://discord.gg/kRDkheaf">Pleb Masters</a></li>
+          <li class="pl-4"><a class="underline" href="https://discord.com/invite/goncalo0001">My Discord Name: Gonçalo</a></li>
         </ul>
       </div>
       <div>
