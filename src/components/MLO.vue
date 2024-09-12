@@ -7,19 +7,16 @@
         <details class="space-y-4 px-6">
           <summary class="text-2xl">0. Configure</summary>
           <p>Open <code>CodeWalker.exe.config</code> and edit this lines:</p>
-          <pre class="bg-neutral-800 rounded-lg overflow-x-auto">
-            <code>
-              &lt;setting name="WindowMaximized" serializeAs="String"&gt;
-                &lt;value&gt;True&lt;/value&gt;
-              &lt;/setting&gt;
-              &lt;setting name="EnableMods" serializeAs="String"&gt;
-                &lt;value&gt;True&lt;/value&gt;
-              &lt;/setting&gt;
-              &lt;setting name="DLC" serializeAs="String"&gt;
-                &lt;value&gt;True&lt;/value&gt;
-              &lt;/setting&gt;
-            </code>
-          </pre>
+            <pre class="bg-neutral-800 rounded-lg p-4 overflow-x-auto max-w-fit">
+&lt;setting name="WindowMaximized" serializeAs="String"&gt;
+  &lt;value&gt;True&lt;/value&gt;
+&lt;/setting&gt;
+&lt;setting name="EnableMods" serializeAs="String"&gt;
+  &lt;value&gt;True&lt;/value&gt;
+&lt;/setting&gt;
+&lt;setting name="DLC" serializeAs="String"&gt;
+  &lt;value&gt;True&lt;/value&gt;
+&lt;/setting&gt;</pre>
         </details>
         <details class="space-y-4 px-6">
           <summary class="text-2xl">1. Export</summary>
@@ -39,7 +36,8 @@
         <details class="space-y-4 px-6">
           <summary class="text-2xl">9. Import</summary>
           <ul class="list-disc list-inside space-y-4">
-            <li class="pl-4">Open the folder of the project and import all the files</li>
+            <li class="pl-4">Create the project's folder inside mods folder</li>
+            <li class="pl-4">Open the folder of the project and import all the files that you exported from Blender</li>
           </ul>
         </details>
 
