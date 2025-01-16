@@ -21,11 +21,12 @@
       <div>
         <h2 class="text-2xl mb-4">Useful Links</h2>
         <ul class="list-none list-inside space-y-2">
-          <li class="pl-4"><a class="underline" href="https://download.blender.org/release/Blender4.1/">Blender 4.1.1</a></li>
-          <li class="pl-4"><a class="underline" href="https://github.com/Sollumz/Sollumz/releases">Sollumz Releases</a></li>
+          <li class="pl-4"><a class="underline" href="https://download.blender.org/release">Blender</a></li>
+          <li class="pl-4"><a class="underline" href="https://github.com/Sollumz/Sollumz/releases">Sollumz</a></li>
           <li class="pl-4"><a class="underline" href="https://www.gta5-mods.com/tools/codewalker-gtav-interactive-3d-map">Codewalker</a></li>
-          <li class="pl-4"><a class="underline" href="https://forge.plebmasters.de/">Pleb Masters</a></li>
+          <li class="pl-4"><a class="underline" href="https://forge.plebmasters.de">Pleb Masters</a></li>
           <li class="pl-4"><a class="underline" href="https://blendermarket.com/products/machin3tools">Machin3Tools - $4.99 - Optional</a></li>
+          <li class="pl-4"><a class="underline" href="https://hollisbrown.github.io/blendershortcuts">Blender Shortcuts</a></li>
         </ul>
       </div>
     </div>

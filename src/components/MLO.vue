@@ -1,13 +1,13 @@
 <template>
   <div id="mlo" class="flex flex-col rounded-lg bg-neutral-100 dark:bg-neutral-900 shadow-lg p-8">
     <details class="space-y-4">
-      <summary class="text-2xl">MLO</summary>
+      <summary class="text-2xl">MLO___WIP</summary>
       <details class="space-y-4">
         <summary class="text-2xl">CODEWALKER</summary>
         <details class="space-y-4 px-6">
           <summary class="text-2xl">0. Configure</summary>
           <p>Open <code>CodeWalker.exe.config</code> and edit this lines:</p>
-            <pre class="bg-neutral-800 rounded-lg p-4 overflow-x-auto max-w-fit">
+            <pre class="bg-neutral-200 dark:bg-neutral-800 rounded-lg p-4 overflow-x-auto max-w-fit">
 &lt;setting name="WindowMaximized" serializeAs="String"&gt;
   &lt;value&gt;True&lt;/value&gt;
 &lt;/setting&gt;
@@ -34,7 +34,7 @@
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">9. Import</summary>
+          <summary class="text-2xl">11. Import</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Create the project's folder inside mods folder</li>
             <li class="pl-4">Open the folder of the project and import all the files that you exported from Blender</li>
@@ -42,7 +42,7 @@
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">10. Create YMAP</summary>
+          <summary class="text-2xl">12. Create YMAP</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select the paper icon and rename the map1.ymap</li>
             <li class="pl-4">Select YMAP -> New Entity and add the collision file name</li>
@@ -51,7 +51,7 @@
         </details>
 
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">11. Generate Manifest</summary>
+          <summary class="text-2xl">13. Generate Manifest</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select Tools -> Generate Manifest -> Generate -> Save and choose the file name</li>
           </ul>
@@ -136,7 +136,7 @@
             <li class="pl-4">Add a new color atribute pressing +</li>
             <li class="pl-4">Change “Color” to “Color 1”</li>
             <li class="pl-4">Select Face Corner and Byte Color</li>
-            <li class="pl-4">Set RGB Green to .2</li>
+            <li class="pl-4">Set RGB Green to .2 or .55</li>
             <li class="pl-4">Convert textures to DDS (color, normal and roughness)</li>
             <li class="pl-4">In object mode, select the location layer, in Sollumz panel open Drawables -> Shader Tools -> Create Shader Material -> “Normal Spec”</li>
             <li class="pl-4">In the materials tab scrool down and alter the textures under the Sollumz tab -> Texture Parameters Set Color Space to Non-Color for BumpSampler, DiffuseSample = Color, Bump Sampler = Normal, SpecSample = Roughness</li>
@@ -164,7 +164,7 @@
           <li class="pl-4">Set the floor id of the floor material to the room (1,2,3)</li>
         </details>
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">7. Create Archetype Definition</summary>
+          <summary class="text-2xl">9. Create Archetype Definition</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select Archetype Definition</li>
             <li class="pl-4">Press the (+) symbol and choose the name of your archetype (It could be the name of the project e.g. yourName_projectName)</li>
@@ -187,14 +187,14 @@
           </ul>
         </details>
         <details class="space-y-4 px-6">
-          <summary class="text-2xl">8. Export</summary>
+          <summary class="text-2xl">10. Export</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">Select everything and Press <kbd>V</kbd> -> Export to export everything</li>
           </ul>
         </details>
       </details>
       <details class="space-y-4">
-        <summary class="text-2xl">12. Stream folder</summary>
+        <summary class="text-2xl">14. Stream folder</summary>
         <ul class="list-disc list-inside space-y-4">
           <li class="pl-4">
             Create the stream folder inside the resources folder
