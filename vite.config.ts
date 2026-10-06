@@ -2,29 +2,26 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 
-// https://vitejs.dev/config/
+// https://vite.dev/config/
 export default defineConfig({
+  // Relative URLs so the build works from any sub-path on a static host
   base: './',
   plugins: [vue()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
-    extensions: [
-      '.js',
-      '.json',
-      '.jsx',
-      '.mjs',
-      '.ts',
-      '.tsx',
-      '.vue',
-    ],
   },
   server: {
     port: 3000,
   },
   build: {
-    outDir: "../dist/",
-    emptyOutDir: true
-  }
+    // Vue rarely changes while the tutorial content does: keep it in its own
+    // chunk so returning visitors only re-download the small app chunk.
+    rollupOptions: {
+      output: {
+        manualChunks: { vue: ['vue'] },
+      },
+    },
+  },
 })

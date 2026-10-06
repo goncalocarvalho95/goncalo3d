@@ -1,5 +1,5 @@
 <template>
-  <div id="mlo" class="flex flex-col rounded-lg bg-neutral-100 dark:bg-neutral-900 shadow-lg p-8">
+  <div id="props" class="flex flex-col rounded-lg bg-neutral-100 dark:bg-neutral-900 shadow-lg p-8">
     <details class="space-y-4">
       <summary class="text-2xl">PROPS___WIP</summary>
       <details class="space-y-4">
@@ -25,7 +25,3 @@
     </details>
   </div>
 </template>
-
-<script setup lang="ts"></script>
-
-<style scoped lang="scss"></style>

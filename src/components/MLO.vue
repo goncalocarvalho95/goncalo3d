@@ -22,13 +22,13 @@
           <summary class="text-2xl">1. Export</summary>
           <ul class="list-disc list-inside space-y-4">
             <li class="pl-4">
-              Press <kbd>space</kbd> + <kbd>T</kbd> and select
-              <img src="../assets/img/codewalker_bar.png" alt="codewalker-bar" class="inline-img" />
+              Press <kbd>Space + T</kbd> and select
+              <img src="../assets/img/codewalker_bar.webp" alt="codewalker-bar" class="inline-img" width="747" height="34" loading="lazy" decoding="async" />
             </li>
             <li class="pl-4">Locate: Building's exterior for the MLO</li>
             <li class="pl-4">Export: Building's YDR, TEXTURES, YBN (HI and normal), YMAP and OCCLUSION</li>
             <li class="pl-4">Export: Terrain/Ground YDR, TEXTURES, YBN and YMAP</li>
-            <li class="pl-4">In RPF Explorer, search the name of each file and press Shift + S to export as XML</li>
+            <li class="pl-4">In RPF Explorer, search the name of each file and press <kbd>Shift + S</kbd> to export as XML</li>
             <li class="pl-4">Save the textures under the materials tab</li>
           </ul>
         </details>
@@ -72,8 +72,8 @@
             </ul>
             <div class="overflow-x-scroll flex-1 md:w-1/2">
               <div class="flex flex-row min-w-max">
-                <img src="../assets//img/blender_import.png" alt="blender-import" class="w-3/4 h-auto object-contain" />
-                <img src="../assets//img/import_ymap.png" alt="blender-import-ymap" class="w-64 h-auto object-contain" />
+                <img src="../assets/img/blender_import.webp" alt="blender-import" class="w-3/4 h-auto object-contain" width="1031" height="353" loading="lazy" decoding="async" />
+                <img src="../assets/img/import_ymap.webp" alt="blender-import-ymap" class="w-64 h-auto object-contain" width="279" height="492" loading="lazy" decoding="async" />
               </div>
             </div>
           </div>
@@ -90,10 +90,10 @@
             </ul>
             <div class="overflow-x-scroll flex-1 md:w-1/5">
               <div class="flex flex-row min-w-max">
-                <img src="../assets/img/blender_tris_quads.png" alt="blender-tris-quads" class="w-80 h-auto object-contain" />
-                <img src="../assets/img/obj_menu.png" alt="blender-obj-menu" class="w-80 h-auto object-contain" />
-                <img src="../assets/img/blender_global.png" alt="blender-global" class="w-80 h-auto object-contain" />
-                <img src="../assets/img/snap_edge_align.png" alt="blender-snap-edge-align" class="w-80 h-auto object-contain" />
+                <img src="../assets/img/blender_tris_quads.webp" alt="blender-tris-quads" class="w-80 h-auto object-contain" width="357" height="245" loading="lazy" decoding="async" />
+                <img src="../assets/img/obj_menu.webp" alt="blender-obj-menu" class="w-80 h-auto object-contain" width="330" height="320" loading="lazy" decoding="async" />
+                <img src="../assets/img/blender_global.webp" alt="blender-global" class="w-80 h-auto object-contain" width="233" height="236" loading="lazy" decoding="async" />
+                <img src="../assets/img/snap_edge_align.webp" alt="blender-snap-edge-align" class="w-80 h-auto object-contain" width="280" height="499" loading="lazy" decoding="async" />
               </div>
             </div>
           </div>
@@ -140,7 +140,7 @@
             <li class="pl-4">Convert textures to DDS (color, normal and roughness)</li>
             <li class="pl-4">In object mode, select the location layer, in Sollumz panel open Drawables -> Shader Tools -> Create Shader Material -> “Normal Spec”</li>
             <li class="pl-4">In the materials tab scrool down and alter the textures under the Sollumz tab -> Texture Parameters Set Color Space to Non-Color for BumpSampler, DiffuseSample = Color, Bump Sampler = Normal, SpecSample = Roughness</li>
-            <li class="pl-4">Duplicate the interior 2x<kbd>Shift + D, rmb</kbd></li>
+            <li class="pl-4">Duplicate the interior 2x <kbd>Shift + D, rmb</kbd></li>
             <li class="pl-4">Rename the interior from Plane to location</li>
             <li class="pl-4">Rename the 1st copy to «yourname»_«projectname»_shell and the 2nd copy to «yourname»_«projectname»_col</li>
             <li class="pl-4">Select the object tab (orange square symbol) and Align the shell and the collision to the World Origin</li>
@@ -210,7 +210,3 @@
     </details>
   </div>
 </template>
-
-<script setup lang="ts"></script>
-
-<style scoped lang="scss"></style>
